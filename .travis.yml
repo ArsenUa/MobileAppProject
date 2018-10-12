@@ -11,4 +11,4 @@ before_install:
 # command to run tests
 script:
   - echo "hello world"
-  - brew install python
+  - python3 simulatorTest.py
