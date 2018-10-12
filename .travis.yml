@@ -2,7 +2,7 @@ os: osx
 osx_image: xcode10
 before_install:
   - brew update
-  language: python
+language: python
 python:
   - "3.6"
 # command to install dependencies
