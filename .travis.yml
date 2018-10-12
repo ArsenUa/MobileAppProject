@@ -11,4 +11,4 @@ before_install:
 # command to run tests
 script:
   - echo "hello world"
-  - aws s3 ls s3://travis-python-archives/binaries/osx/10.13/x86_64/
+  - brew install python
