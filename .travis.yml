@@ -2,6 +2,11 @@ os: osx
 osx_image: xcode10
 before_install:
   - brew update
+  - brew install npm
+  - brew install node
+  - brew install ios-deploy
+  - xcode-select --install
+  - npm install -g appium
 #language: python
 #python:
 #  - "3.6"
@@ -11,4 +16,5 @@ before_install:
 # command to run tests
 script:
   - echo "hello world"
+  - appium
   - python3 simulatorTest.py
